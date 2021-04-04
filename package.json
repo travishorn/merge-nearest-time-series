@@ -1,0 +1,50 @@
+{
+  "name": "merge-nearest-time-series",
+  "version": "1.0.0",
+  "description": "Pulls data from one time series into another based on the closest time.",
+  "main": "src/mergeNearestTimeSeries.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint --fix **/*.js"
+  },
+  "keywords": [
+    "close",
+    "closest",
+    "date",
+    "distance",
+    "index",
+    "merge",
+    "near",
+    "nearest",
+    "relative",
+    "series",
+    "time series",
+    "time",
+    "timeseries"
+  ],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/merge-nearest-time-series.git"
+  },
+  "bugs": {
+    "url": "https://github.com/travishorn/merge-nearest-time-series/issues"
+  },
+  "homepage": "https://github.com/travishorn/merge-nearest-time-series#readme",
+  "license": "MIT",
+  "files": [
+    "src/"
+  ],
+  "dependencies": {
+    "nearest-date": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  }
+}
