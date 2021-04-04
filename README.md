@@ -81,6 +81,9 @@ The resulting array will look like this:
 ];
 ```
 
+If multiple dates are equally distant, the first object found in the array will
+be used.
+
 ## Installation
 
 ```bash
