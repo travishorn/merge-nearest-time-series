@@ -1,6 +1,6 @@
 {
   "name": "merge-nearest-time-series",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pulls data from one time series into another based on the nearest timestamp.",
   "main": "src/mergeNearestTimeSeries.js",
   "scripts": {
